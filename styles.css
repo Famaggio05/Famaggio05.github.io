@@ -4,9 +4,10 @@ p {
 #header {
   text-align: center;   color: blue;
 }
-.center {
+.about {
   text-align: center;   color: green;
 }
+.projects {background: lightblue;}
 body { background: darkcyan;
   font-family: 'Times New Roman', Times, serif;
 margin: 40px;}

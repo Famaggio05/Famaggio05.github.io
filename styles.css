@@ -7,3 +7,5 @@ p {
 .center {
   text-align: center;   color: green;
 }
+body { background: brown;
+  font-family: 'Times New Roman', Times, serif;}

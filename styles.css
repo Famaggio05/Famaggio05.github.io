@@ -7,7 +7,7 @@ p {
 .about {
   text-align: center;   color: green;
 }
-.contact {background: darkgoldenrod;}
+.contact {background: darkgrey;}
 .skills {background: darkred;}
 .projects {background: lightblue;}
 body { background: darkcyan;

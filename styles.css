@@ -1,21 +1,125 @@
-p { 
-  text-align: center;   color: orange;
+body {
+
+  font-family: Arial, sans-serif;
+
+  background: #f4f6f8;
+
+  margin: 0;
+
 }
-#header {
-  text-align: center;   color: blue;
+
+/* Header */
+
+header {
+
+  background: #1e3a5f;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 20px;
+
 }
-.about {
-  text-align: center;   color: green;
+
+/* Layout */
+
+main {
+
+  max-width: 1000px;
+
+  margin: auto;
+
+  padding: 20px;
+
 }
-.contact {background: darkgrey;}
-.skills {background: darkred;}
-.projects {background: lightblue;}
-body { background: darkcyan;
-  font-family: 'Times New Roman', Times, serif;
-margin: 40px;}
-.persona { background-color: lightblue;}
-.Storyboards {background-color: lightblue;}
-.sketches {background-color: lightblue;}
-.AffinityDiagram {background-color: lightblue;}
-.PaperPrototype {background-color: lightblue;}
-.missionStatement {background-color: antiquewhite;}
+
+/* Cards */
+
+.card {
+
+  background: white;
+
+  padding: 20px;
+
+  margin-bottom: 20px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+}
+
+/* Titles */
+
+h2 {
+
+  margin-top: 0;
+
+  color: #1e3a5f;
+
+}
+
+/* Images */
+
+img {
+
+  width: 100%;
+
+  max-width: 400px;
+
+  border-radius: 8px;
+
+  margin: 10px 0;
+
+}
+
+/* Project */
+
+.project img {
+
+  max-width: 600px;
+
+}
+
+/* Grid layout */
+
+.grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+  gap: 20px;
+
+}
+
+.item {
+
+  text-align: center;
+
+}
+
+/* Links */
+
+a {
+
+  text-decoration: none;
+
+  color: #1e3a5f;
+
+}
+
+a:hover {
+
+  color: #0077cc;
+
+}
+
+/* Contact */
+
+.contact {
+
+  text-align: center;
+
+}
